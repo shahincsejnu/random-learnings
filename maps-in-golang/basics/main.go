@@ -42,4 +42,7 @@ func main() {
 	for key, value := range mp2 {
 		fmt.Println(key, value)
 	}
+
+	delete(mp2, "oka")
+	fmt.Println(mp2)
 }
