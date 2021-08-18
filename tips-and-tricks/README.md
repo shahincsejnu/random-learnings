@@ -1,6 +1,6 @@
 # Tips & Tricks
 
-## ubuntu 20.04 workspaces in multiple monitors
+## How to span workspace in multiple monitors in ubuntu 20.04?
 - Install `gnome-tweaks` by :
   - `sudo apt install gnome-tweaks`
 - Then use `gnome-tweaks` commands (will prompt up the tweaks box):
@@ -8,7 +8,7 @@
 - Now, your workspace will span in all of your monitors
 
 
-## using private repo in go.mod
+## How to use private repo in go.mod? 
 - To use private repo in go.mod and then to do `go mod tidy; go mod vendor` follow the below instructions:
   - set `GOPRIVATE` env variable : `go env -w GOPRIVATE=<repo_name>`
     - Ex: `go env -w GOPRIVATE=kubeform.dev/<repo_name>`
