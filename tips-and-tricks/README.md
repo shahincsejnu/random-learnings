@@ -16,3 +16,10 @@
       - cause doing exporting will not work fine and if you do both export and go env then it will get conflict (faced that issue)
     - also add this one : `git config --global --add url.git@github.com:.insteadOf https://github.com/` :
       - To tell to use ssh rather than https
+
+## How to set default editor in ubuntu
+- do `nano ~/.bashrc` then
+- add `export EDITOR=<editor_name>` in `~/.bashrc`
+- you can also add this line in `~/.bashrc` : 
+  - `export KUBE_EDITOR=nano`
+  - it will help to open k8s stuffs in nano by default (it gets more priority over the global EDITOR env variable)
